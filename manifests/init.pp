@@ -43,6 +43,6 @@
 # Copyright 2017 Your name here, unless otherwise noted.
 #
 class ssh {
-
-
+  include ssh::install
+  include ssh::service  
 }
